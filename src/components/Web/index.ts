@@ -1,1 +1,1 @@
-export * from './WebRouter'
+export * from './WebRouter';

@@ -1,9 +1,11 @@
-import "./App.css";
+import './App.css';
+import { MainComponent } from './components';
 
-function App() {
+function App(): React.ReactElement {
   return (
-    <div className="App">
+    <div className='App'>
       <div>learn react</div>
+      <MainComponent />
     </div>
   );
 }

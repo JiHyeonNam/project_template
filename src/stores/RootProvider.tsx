@@ -1,6 +1,6 @@
-import React, { FC } from "react";
-import { SubjectStore } from "./SubjectStore";
-import { Provider } from "mobx-react";
+import React, { type FC } from 'react';
+import { SubjectStore } from './SubjectStore';
+import { Provider } from 'mobx-react';
 
 interface RootProviderProps {
   children: React.ReactNode;

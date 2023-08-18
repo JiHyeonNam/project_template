@@ -1,13 +1,13 @@
-import { makeAutoObservable } from "mobx";
+import { makeAutoObservable } from 'mobx';
 
 export class SubjectStore {
-  private _count: number;
+  private readonly _count: number;
   constructor() {
     this._count = 0;
     makeAutoObservable(this);
   }
 
-  get count() {
+  get count(): number {
     return this._count;
   }
 

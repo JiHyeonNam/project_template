@@ -1,10 +1,9 @@
 interface RootStoreInterface {
-    num1: number;
+  num1: number;
 }
-export class RootStore implements RootStoreInterface{
-    num1: number;
-    constructor(){
-        this.num1 = 1;
-    }
+export class RootStore implements RootStoreInterface {
+  num1: number;
+  constructor() {
+    this.num1 = 1;
+  }
 }
-
